@@ -1,0 +1,36 @@
+body {
+    font-family: monospace;
+    margin: 0;
+    background-color: #f2f4f8;
+}
+header{
+    background-color: #256eb2;
+    color: white; text-align: center;
+    padding: 25px;
+}
+main {padding: 25px;}
+h2 {text-align: center;}
+.produk-container{
+    display: flex;
+    justify-content: center; gap: 20px;
+    flex-wrap: wrap;
+}
+.produk{
+    background-color: white;
+    width: 220px; padding: 15px;
+    border-radius: 10px; text-align: center;
+}
+.produk img{
+    width: 100%; border-radius: 8px;
+}
+button{
+    background-color: #2563eb; color: white;
+    border: none; padding: 10px 15px;
+    border-radius: 5px; cursor; pointer;
+}
+.detail{
+    display: none; background-color: white;
+    max-width: 400px; margin: 30px; auto;
+    padding: 20px; border-radius: 10px;
+    text-align: center;
+}

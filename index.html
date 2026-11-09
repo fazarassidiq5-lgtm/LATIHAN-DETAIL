@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katalog Produk</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>TokoKu</h1>
+        <p>Temukan produk favoritmu</p>
+    </header>
+    <main>
+        <h2>Daftar Produk</h2>
+        <div class="produk-containter">
+            <div class="produk">
+                <img src="" alt="sepatu">
+                <h3>Sepatu Sport</h3>
+                <p>Rp150.000</p>
+                <button onclick="lihatDetail('Sepatu Sport','150.000','Merek Adidas')">
+                    Lihat Detail
+                </button>
+            </div>
+
+            <div class="produk">
+                <img src="" alt="Tas">
+                <h3>Tas</h3>
+                <p>Rp85.000</p>
+                <button onclick="lihatDetail('Tas Sekolah','85.000','Merek GUCCI')">
+                    Lihat Detail
+                </button>
+            </div>
+
+            <div class="produk">
+                <img src="" alt="Jam">
+                <h3>Jam Tangan</h3>
+                <p>Rp200.000</p>
+                <button onclick="lihatDetail('Jam Tangan','200.000','Merek ROLEX')">
+                    Lihat Detail
+                </button>
+            </div>
+        </div>
+        
+        <div class="detail" id="detail">
+            <h2 id="namaProduk"></h2>
+            <h3 id="hargaProduk"></h3>
+            <p id="deskripsiProduk"></p>
+            <button onclick="TutupDetail()">Tutup</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
